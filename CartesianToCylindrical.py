@@ -7,7 +7,7 @@ try:
 
     rho = np.sqrt(x**2 + y**2)
     phi = np.degrees(np.arctan2(y, x))
-    print(f"The cylindrical coordinates are ({rho}, {phi}, {z})")
+    print(f"The cylindrical coordinates are ({rho:.3f}, {phi:.3}, {z:.f})")
 
 except ValueError:
     print("Please enter real numbers")
